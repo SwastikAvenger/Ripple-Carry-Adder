@@ -7,3 +7,7 @@ However, one of the most important cons of the RCA is, the final output is avail
 in geting the result using the Ripple Carry Adder.
 
 More information about the Ripple Carry Adder can be found here :- https://cse.iitkgp.ac.in/~chitta/coldvl/rca_design.html 
+
+To implement this project, one must design the half adder module by taking example from the HA_1bit module available in this repo. Then, design the full adder module using module instantiation method (Port Connection by Name method is preferrred over Ordered List, since if the order of the list in any module gets modified, the circuit will be have an improper design). 
+Once the full adder is designed, declare some wire signals to store/transfer the carry output of each full adder to the next full adder. 
+The final carry output is taken as the carry output of the final stage adder. 
